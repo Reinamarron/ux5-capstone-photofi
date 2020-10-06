@@ -3,3 +3,69 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #fae8eb;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #f6caca;
+  text-align: center;
+}
+h3 {
+  color: #0a014f;
+  text-align: center;
+}
+.header {
+  background-color: #0a014f;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav__list-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 10.5rem;
+}
+
+.navbar {
+  color: #0a014f;
+  display: flex;
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+.hero {
+  background-color: #f6caca;
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  margin-bottom: 1.75em;
+  border-radius: 1rem;
+}
+
+.hero__image-caption {
+  background-color: #f6caca;
+  margin-top: 1em;
+  padding: 1em 0.5em 0.5em;
+
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.button {
+  background-color: #a261a7;
+  color: #f6caca;
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1em;
+  margin: auto;
+  padding: 0.25em;
+  text-align: center;
+  margin-bottom: 1.75em;
+}
