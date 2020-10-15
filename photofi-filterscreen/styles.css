@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fae8eb;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  color: #f6caca;
+  text-align: center;
+}
+h3 {
+  color: #0a014f;
+  text-align: center;
+}
+
+.dog_img {
+  height: 170px;
+  width: 240px;
+}
+
+.img_filter {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  height: 100px;
+  width: 180px;
+  margin-left: 70px;
+}
+
+.header {
+  background-color: #0a014f;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav__list-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-left: 10.5rem;
+}
+
+.navbar {
+  color: #0a014f;
+  display: flex;
+  text-align: right;
+  margin-right: 0.5em;
+}
+.navbar li {
+  padding: 7px;
+}
+
+.hero {
+  background-color: #f6caca;
+  width: 80%;
+  height: 20rem;
+  margin: auto;
+  margin-bottom: 1.75em;
+  border-radius: 1rem;
+}
+
+.hero__image-caption {
+  background-color: #f6caca;
+  margin-top: 5px;
+  padding: 10px;
+
+  text-align: center;
+  border-radius: 1rem;
+}
+
+.button {
+  background-color: #a261a7;
+  color: #f6caca;
+  height: 40px;
+  width: 111px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.photo_buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button__clear {
+  margin-top: 20px;
+  margin-left: 100px;
+}
