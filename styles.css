@@ -77,22 +77,6 @@ hr {
   border-radius: 1rem;
 }
 
-<<<<<<< HEAD
-.photo-button{
-  display:flex;
-  display:inline-block;
-  flex-wrap:no-wrap;
-  justify-content: space-around;
-  align-items: stretch;
-}
-.button {
-  background-color: #a261a7;
-  color: #f6caca;
-  width: 4rem;
-  display: flex;
-  /* flex-direction: nowrap; */
-  align-self: center;
-=======
 .camera-icon img {
   max-width: 75%;
   margin-top: 2em;
@@ -121,7 +105,6 @@ hr {
   background-color: #a261a7;
   color: #f6caca;
   width: 4.25rem;
->>>>>>> ux5-photofi-static-dev
   border-radius: 1em;
   padding: 0.65em;
   margin-top: 1em;
@@ -160,19 +143,12 @@ hr {
   }
 }
 /* Screen Sizes 768px and Up */
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   #landing {
-      display: flex;
-      height: 100%;
+    display: flex;
+    height: 100%;
   }
   #landing-text {
-    height:100vh;
-  }
-}
-/* Screen Sizes 992px and Up */
-@media(min-width: 992px) {
-  .button {
-    /* justify-content: space-around; */
-    /* padding: 1rem 3rem; */
+    height: 100vh;
   }
 }
