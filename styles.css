@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #fae8eb;
   font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
@@ -13,16 +14,30 @@ h1 {
   color: #f6caca;
   text-align: center;
 }
+
 h3 {
   color: #0a014f;
   text-align: center;
 }
-.header {
-  background-color: #0a014f;
-}
 
 ul {
   list-style-type: none;
+}
+
+li {
+  padding: 0.5em;
+}
+
+hr {
+  max-width: 90%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1em;
+}
+
+.header {
+  background-color: #0a014f;
+  margin: auto;
 }
 
 .nav__list-items {
@@ -35,14 +50,20 @@ ul {
 .navbar {
   color: #0a014f;
   display: flex;
-  text-align: right;
-  margin-right: 0.5em;
+  justify-content: flex-end;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .hero {
   background-color: #f6caca;
   width: 80%;
   height: 20rem;
+  max-width: 600px;
   margin: auto;
   margin-bottom: 1.75em;
   border-radius: 1rem;
@@ -52,11 +73,11 @@ ul {
   background-color: #f6caca;
   margin-top: 1em;
   padding: 1em 0.5em 0.5em;
-
   text-align: center;
   border-radius: 1rem;
 }
 
+<<<<<<< HEAD
 .photo-button{
   display:flex;
   display:inline-block;
@@ -71,11 +92,72 @@ ul {
   display: flex;
   /* flex-direction: nowrap; */
   align-self: center;
-  border-radius: 1em;
+=======
+.camera-icon img {
+  max-width: 75%;
+  margin-top: 2em;
+}
+
+.photofi-logo {
   margin: auto;
-  padding: 0.25em;
-  text-align: center;
+  width: 95%;
+  margin-bottom: 1.25em;
+}
+
+.photofi-logo img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+.button {
+  background-color: #a261a7;
+  color: #f6caca;
+  width: 4.25rem;
+>>>>>>> ux5-photofi-static-dev
+  border-radius: 1em;
+  padding: 0.65em;
+  margin-top: 1em;
   margin-bottom: 1.75em;
+  margin: auto;
+  display: block;
+}
+
+.button:hover {
+  box-shadow: 0 8px 12px 0;
+  color: #0a014f;
+  text-decoration: #a261a7;
+}
+
+/* DESKTOP AFFORDANCE */
+
+@media screen and (min-width: 466px) {
+  .buttons {
+    margin-top: 12em;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .navbar {
+    margin-right: 2em;
+  }
+  .button {
+    text-align: center;
+  }
+  .button__getstarted {
+    width: 12rem;
+  }
+  .button__upload,
+  .button__take-photo {
+    width: 12rem;
+  }
 }
 /* Screen Sizes 768px and Up */
 @media(min-width: 768px) {
