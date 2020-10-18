@@ -57,15 +57,40 @@ ul {
   border-radius: 1rem;
 }
 
+.photo-button{
+  display:flex;
+  display:inline-block;
+  flex-wrap:no-wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
 .button {
   background-color: #a261a7;
   color: #f6caca;
   width: 4rem;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: nowrap; */
+  align-self: center;
   border-radius: 1em;
   margin: auto;
   padding: 0.25em;
   text-align: center;
   margin-bottom: 1.75em;
+}
+/* Screen Sizes 768px and Up */
+@media(min-width: 768px) {
+  #landing {
+      display: flex;
+      height: 100%;
+  }
+  #landing-text {
+    height:100vh;
+  }
+}
+/* Screen Sizes 992px and Up */
+@media(min-width: 992px) {
+  .button {
+    /* justify-content: space-around; */
+    /* padding: 1rem 3rem; */
+  }
 }
